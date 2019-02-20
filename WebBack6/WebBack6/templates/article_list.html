@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Displaying all articles</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="button-class">
+        <form method="GET" action="/">
+            <input type="submit" name="btn-redirect" value="Home">
+        </form>
+    </div>
+    <div class="article-list"></div>
+    {% if articles %}
+    <ul id="articles">
+        {% for item in articles %}
+        <li class="article-list">
+            <div class="text">
+                <a href="/articles/{{item.title}}">
+                    <h4>Title: {{item.title}}</h4>
+                </a>
+                <h4>Author: {{item.author}}</h4>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No Forms saved!</p>
+    {% endif %}
+
+    <form method="GET" action="/api/articles">
+        <input type="submit" name="btn-json" value="Click here to see the list in JSON-format">
+    </form>
+</body>
+</html>

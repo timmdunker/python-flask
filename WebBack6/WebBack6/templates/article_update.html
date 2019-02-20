@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>The article list has been updated!</h1>
+    <div class="button-class">
+        <form method="GET" action="{{url_for('getArticles')}}">
+            <input type="submit" name="btn-redirect" value="See All Articles">
+        </form>
+    </div>
+</body>
+</html>

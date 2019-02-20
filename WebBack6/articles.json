@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "author": "David Attenborough",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit a est in iaculis. Praesent quis purus pretium felis vulputate aliquam eu a urna.",
+            "title": "Lorem Ipsum 2"
+        },
+        {
+            "author": "Era",
+            "content": "Ameno amenosto dorime dorime o a ezare per\u00fcme zamie omerate zamie omeratsiones o a emeo diavole ameno amenosto dorime dorime o a emeo diavote zamie omerate zamie omeratsiones o a emeo malevo emeo imagione imperissire volare o a emeo malevo cantare ocsime venero emero malevo emeo o a emeo malevo enime ameno amenosto dorime dorime o a emeo diavote zamie omerate zamie omeratsiones o a emeo malevo venero ineanturoni calite per\u00fcme veneto ineanturoni calite imane o a emeo malevo cartare ocsime venero eneo malevo er\u00fcme ameno amenosto dorime dorime o a ezare per\u00fcme zamie omerate zamie omeratsiones o a emeo diavole ameno amenosto dorime dorime o a ezare per\u00fcme zamie omerate zamie omeratsiones o a emeo diavole ameno amenosto dorime dorime o a emeo diavote zamie omerate zamie omeratsiones o a emeo malevo.",
+            "title": "Enae Volare"
+        },
+        {
+            "author": "Walter Murphey And His Orchestra",
+            "content": "Lois: It seems today that all you see is violence in movies and sex on TV. Peter: But where are those good ol' fashioned values... All: ...on which we used to rely? All: Lucky there's a Family Guy! All: Lucky there's a man who, positively can do all the thing that make us... Stewie: ...Laugh and cry! All: He's a Family Guuuuuuuuuuuuy!",
+            "title": "Family Guy Theme"
+        },
+        {
+            "author": "Gabriel",
+            "content": "My dog is the best dog.",
+            "title": "My dog"
+        },
+        {
+            "author": "Gabriel",
+            "content": "This dog eats a lot.",
+            "title": "My dog part two"
+        },
+        {
+            "author": "Gabriel",
+            "content": "This cat is very friendly.",
+            "title": "My cat"
+        },
+        {
+            "author": "",
+            "content": "",
+            "title": ""
+        }
+    ]
+}

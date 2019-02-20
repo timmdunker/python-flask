@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Article registration </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>You have registered the following article:</h1>
+    <form>
+        <div class="result-class">
+            <label>{{title}} by</label>
+            <label>{{author}}</label>
+        </div>
+    </form>
+    <p>You will be redirected in 5 seconds</p>
+    <script>
+        var timer = setTimeout(function() {
+            window.location = '/'
+        }, 5000);
+    </script>
+</body>
+</html>

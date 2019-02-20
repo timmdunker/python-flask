@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manage articles</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Manage articles</h2>
+    <div class="button-class">
+        <form method="GET" action="{{url_for('getArticles')}}">
+            <input type="submit" name="btn-redirect" value="See All Articles">
+        </form>
+    </div>
+
+    <form action="/done" method="POST">
+        <div class="result-class">
+            <label>Title:</label>
+            <input type="text" class="article-class" name="title" placeholder="Title">
+        </div>
+        <div class="result-class">
+            <label>Author:</label>
+            <input type="text" class="article-class" name="author" placeholder="Author">
+        </div>
+        <div class="result-class">
+            <label>Content:</label>
+            <textarea type="text" rows="6" cols="32" class="article-class" name="content" placeholder="Add text"></textarea>
+        </div>
+        <div class="result-class">
+            <button type="submit" class="btn-success">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

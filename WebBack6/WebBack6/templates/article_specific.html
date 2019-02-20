@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Viewing specific article</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="button-class">
+        <form method="GET" action="/">
+            <input type="submit" name="btn-redirect" value="Home">
+        </form>
+    </div>
+    <form>
+        <div class="result-class">
+            <h2>Title: {{title}}</h2>
+            <h2>Author: {{author}}</h2>
+            <h4>Content: {{content}}</h4>
+        </div>
+    </form>
+    <div class="button-class">
+        <form method="GET" action="/articles/{{title}}/edit">
+            <input type="submit" name="btn-redirect" value="Edit article">
+        </form>
+        <form method="GET" action="/api/articles/{{title}}">
+            <input type="submit" name="btn-redirect" value="See as JSON">
+        </form>
+    </div>
+
+</body>
+</html>

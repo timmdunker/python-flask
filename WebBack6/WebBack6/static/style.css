@@ -1,0 +1,64 @@
+body{
+    font-family: arial; 
+    font-size: 80%; 
+    line-height: 1.2em; 
+    width: 100%; 
+    margin: 0; 
+    background: #eee;
+}
+
+h1{ 
+    font-size: 1.7em; 
+
+}
+h2{ font-size: 1.5em; 
+
+}
+
+p{ 
+    line-height: 1em; 
+
+}
+
+.button-class {
+    margin: 12px;
+}
+
+input[name=btn-redirect] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.btn-success{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+
+input[name=btn-json] {
+    background-color: #ff6a00;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.article-list{
+    display:block;
+}

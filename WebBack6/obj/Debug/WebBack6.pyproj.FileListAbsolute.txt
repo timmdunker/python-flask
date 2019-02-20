@@ -1,0 +1,15 @@
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\attach_server.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\visualstudio_py_repl.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\visualstudio_py_util.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\__init__.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\__main__.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\bin\AzureSetup.cfg
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\bin\wfastcgi.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\deployment-updated-pyvenv.cfg
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\ptvs_virtualenv_proxy.py
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\web.config
+C:\Users\Timm\Desktop\inl_upp_6\WebBack6\WebBack6\obj\Debug\web.debug.config

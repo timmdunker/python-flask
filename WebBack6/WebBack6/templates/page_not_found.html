@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page not found</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="h1">
+        <h1>404 page not found</h1>
+        <p>The page you were looking for could not be found!</p>
+    </div>
+    <button class="btn-return" onclick="goBack()">Previous page</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
