@@ -1,5 +1,5 @@
 # python-flask
-Final assignment of a Server &amp; Back-end course at Malmö University  2017
+Server & Back-end.
 
 Flask is a micro web framework written in Python. This project is about learning how to use and implement Flask and at the same time increase the knowledge of Python and HTML.
 
